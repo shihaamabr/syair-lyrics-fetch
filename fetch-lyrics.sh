@@ -21,4 +21,5 @@ FETCH=$(curl -s https://www.syair.info/${HREF} \
 	| tail -n +13 \
 	| sed "s/<br>//g" \
 	| cut --complement -d '>' -f 1 \
+	| sed 's/\&quot\;/"/g' \
 	| head -n -1 > "/sdcard/RetroMusic/lyrics/${SONGNAME} - ${ARTISTNAME}.lrc")
