@@ -7,11 +7,11 @@ This script is meant to run on Android Termux
 ### Requriements
 `curl` `jq` `pup`
 ```
-pkg install curl jq pup`
+pkg install curl jq pup
 ```
 - Make SURE they are installed before continuing!
 
 
-### Run the script with Song name as arugment
+### Run the script with song name as arugment
 eg:
 `./fetch-lyrics.sh "Not a Damn Thing Changed"`
