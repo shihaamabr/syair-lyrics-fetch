@@ -7,7 +7,7 @@ This script is meant to run on Android Termux
 ### Requriements
 `curl` `jq` `pup`
 ```
-pkg install curl jq pup`
+pkg install curl jq pup
 ```
 - Make SURE they are installed before continuing!
 
