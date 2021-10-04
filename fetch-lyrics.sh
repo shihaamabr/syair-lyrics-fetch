@@ -1,6 +1,6 @@
 #!/bin/bash
 
-QUERY=$(echo $1$2$3$4$5$6$7$8$9 | sed "s/ /+/g")
+QUERY=$(echo $1 $2 $3 $4 $5 $6 $7 $8 $9 | sed "s/ /+/g")
 
 SEARCH=$(curl -s https://www.syair.info/search?q=${QUERY} \
 	| pup 'a.title json{}')
