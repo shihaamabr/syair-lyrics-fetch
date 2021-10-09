@@ -17,10 +17,14 @@ cd syair-lyrics-fetch
 chmod +x *.sh
 ```
 
-### fetch-lyrics.sh - Run the script with song name as arugment
+### For a specific song - fetch-lyrics.sh - Run the script with song name as arugment
 eg:
-`./fetch-lyrics.sh "Not a Damn Thing Changed"`
+```
+./fetch-lyrics.sh "Not a Damn Thing Changed"
+```
 
 
-### fetch-lyrics-all.sh - Run and watch it fetch lyrics and place them in Retro Music dir
-`./fetch-lyrics-all.sh`
+### For all songs - fetch-lyrics-all.sh - Run and watch it fetch lyrics and place them in Retro Music dir
+```
+./fetch-lyrics-all.sh
+```
